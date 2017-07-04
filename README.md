@@ -3,9 +3,13 @@ java使用纯servlet实现360商城
 
 开发语言：JAVA
 
-数据库：MYSQL
+开发工具：Eclipse
 
-相关技术：纯Servlet+jsp
+数据库：Mysql
+
+后台技术：纯Servlet+JDBC
+
+前台技术：Jsp+Css+Js
 
 如果本项目对您有帮助的话，**请方便给我个Star**
 
