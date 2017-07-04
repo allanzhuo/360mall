@@ -79,42 +79,42 @@ java使用纯servlet实现360商城
 
 │　　　　　　　├── Cart　　　　　　　　　　　　　　　　// 购物车实体类
 
-│　　　　　　　├── Goods                           // 商品实体类
+│　　　　　　　├── Goods　　　　　　　　　　　　　　　// 商品实体类
 
-│　　　　　　　└── User                            // 用户实体类
+│　　　　　　　└── User　　　　　　　　　　　　　　　　// 用户实体类
 
-│　　　　└──── servlets                          // 处理类，相当于action或controller
+│　　　　└──── servlets　　　　　　　　　　　　　　　　// 处理类，相当于action或controller
 
-│　　　　　　　├── CartServlet                     // 购物车处理类
+│　　　　　　　├── CartServlet　　　　　　　　　　　　// 购物车处理类
 
-│　　　　　　　├── GoodsServlet                    // 商品处理类
+│　　　　　　　├── GoodsServlet　　　　　　　　　　　// 商品处理类
 
-│　　　　　　　└── UserServlets           　　　　  // 用户处理类
+│　　　　　　　└── UserServlets　　　　　　　　　　　// 用户处理类
 
 │
 ├── WebContent
 
 │　　　　├── css
 
-│      　　　 └── ...                            // 样式文件
+│　　　　　　　└── ... 　　　　　　　　　　　　　　　　// 样式文件
            
 │　　　　├── img
 
-│       　　　└── ...			    　　　　　　　　　　　 // 用到的图片
+│　　　　　　　└── ...　　　　　　　　　　　　　　　　// 用到的图片
 
 │　　　　├── js
 
-│      　　　 └── ...			    　 　　　　　　　　　 // js文件
+│　　　　　　　└── ...　　　　　　　　　　　　　　　　// js文件
 
-│  　　 ├── sql				
+│　　　　├── sql				
 
-│      　　　 └── ...			    　 　　　　　　　　　 // sql文件
+│ 　　　　　　└── ...　　　　　　　　　　　　　　　　// sql文件
 
-│   　　├── WEB-INF  　 
+│　　　　├── WEB-INF  　 
 
-│      　　　 └── lib			    　　　　　　　　　　  // jar包
+│　　　　　　└── lib　　　　　　　　　　　　　　　　　// jar包
 
-│   　　└── ...                          　　   //页面
+│　　　　└── ...　　　　　　　　　　　　　　　　　　　//页面
 
 └── README.md
 
