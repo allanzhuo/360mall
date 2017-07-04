@@ -88,7 +88,7 @@ java使用纯servlet实现360商城
 │　　　　　　　├── CartServlet                     // 购物车处理类
 
 │　　　　　　　├── GoodsServlet                    // 商品处理类
-　
+
 │　　　　　　　└── UserServlets           　　　　  // 用户处理类
 
 │
@@ -103,7 +103,7 @@ java使用纯servlet实现360商城
 │       　　　└── ...			    　　　　　　　　　　　 // 用到的图片
 
 │　　　　├── js
-　　
+
 │      　　　 └── ...			    　 　　　　　　　　　 // js文件
 
 │  　　 ├── sql				
