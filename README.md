@@ -1,59 +1,41 @@
-# JEESNS
+# 360mall
+java使用纯servlet实现360商城
+
 开发语言：JAVA
 
 数据库：MYSQL
 
-开发框架：Spring MVC+Spring+Mybatis
-
-模板引擎：Freemarker
+相关技术：纯Servlet+jsp
 
 ## 简介
-JEESNS是一款基于JAVA企业级平台研发的社交管理系统，依托企业级JAVA的高效、安全、稳定等优势，开创国内JAVA版开源SNS先河。数据库使用MYSQL，全部源代码开放，官方网址：[http://www.jeesns.cn](http://www.jeesns.cn/)。
-
-## 应用场景
-- JEESNS是一个企业级的开源社区系统，是一个可以用来搭建门户、群组、论坛和微博的社区系统。
-- JEESNS是将SNS社会化网络元素，人和群组结合在一起的新型的社交系统。
-- JEESNS以人为中心，通过用户的需求和行为将最有价值的信息得以不断整合。
-- JEESNS是一个稳定、安全、可扩展的社区系统，可以帮您搭建与众不同的交流社区。
-- 如果您要需要搭建一个论坛,那么您可以用JEESNS
-- 如果您需要一个群组，那么您可以用JEESNS
-- 如果您需要因为某个话题来汇聚人群，那么您可以用JEESNS
-
+这是我上大学期间写的第一个相对较完善的学习项目，项目中所有css和js都是自己边摸索、边学习画出来的，自我感觉对于我当时的水平还算可以了。本项目适合javaweb初学者，大家可以从中学到javaweb处理底层相关原理、css和js入门理解。数据库使用MYSQL，全部源代码开放，如果本项目对您有帮助的话，**请方便给我个Star**
 
 ## 功能模块
-- 私信功能
-1. 界面模仿PC版微信
-2. 可以查看私聊过的联系人
-3. 聊天界面自动刷新
+- 首页
+1. 导航栏
+2. 轮播图
+3. 分栏推荐
 
-- 个人主页
-1. 关注会员
-2. 私信会员
-3. 查看动态
-4. 查看粉丝、关注、微博、文章、帖子、群组
+- 搜索
+1. 显示关键词搜到的产品
+2. 能通过产品进入详情页
 
-- 微博模块
-1. 支持图片类型的微博
+- 详情页
+1. 显示商品详情
 2. 多图画廊展示
-3. 支持添加Emoji标签
-4. 点赞功能
+3. 购物车
+4. 立即购买功能
 
-- 群组模块
-1. 可以关注群组
-2. 支持上传群组logo
-3. 支持发帖审核开关
-4. 授权管理员
-5. 帖子喜欢功能
-6. 帖子加精、置顶
+- 购物车
+1. 显示加入购物车产品信息
 
-- 文章模块
-1. 文章喜欢功能
-2. 文章投稿功能开关
-3. 文章审核功能开关
-4. 文章评论
+- 登录注册
+1. 实现登录注册功能
 
-- 动态模块
-1. 洞悉一切
+- 后台管理
+1. 后台首页
+2. 商品管理
+3. 用户管理
 
 ## 环境要求
 
@@ -63,88 +45,101 @@ JEESNS是一款基于JAVA企业级平台研发的社交管理系统，依托企�
 
 ## 部署说明
 
-1. 创建数据库。如使用MySQL，字符集选择为`utf8`或者`utf8mb4`（支持更多特殊字符，推荐）。
-2. 执行数据库脚本。数据库脚本在`/src/main/webapp/database`目录下。
-3. 在eclipse中导入maven项目。点击eclipse菜单`File` - `Import`，选择`Maven` - `Existing Maven Projects`。
-4. 设置项目编码为utf-8，选择jdk1.7版本或以上，不要选择jre。
-5. 修改数据库连接。打开`/src/main/resources/jeesns.propertis`文件，根据实际情况修改`jdbc.url`、`jdbc.user`、`jdbc.password`的值，修改后台路径：`managePath`，如：`managePath=manage`
-6. 编译项目。在eclipse中，右键点击项目名，选择`Run as` - `Maven build...`，`Goals`填入`clean package`，然后点击`Run`，第一次运行需要下载jar包，请耐心等待。
-7. 部署项目。将项目部署到Tomcat7或以上版本，启动Tomcat。
-8. 访问系统。前台地址：[http://localhost:8080/](http://localhost:8080/)；用户名：admin，密码：jeesns，登录成功之后，在右上角展开有个'管理'，点击即可进入后台管理。
+1. 创建数据库。使用MySQL，字符集选择为`utf8`或者`utf8mb4`（支持更多特殊字符，推荐）。
+2. 创建数据库导入数据。数据库在`360mall\WebContent\sql`目录下，参考数据脚本创建数据库。
+3. 设置项目编码为utf-8，选择jdk1.7版本或以上，不要选择jre。
+4. 修改数据库连接。打开`360mall\src\dao\BaseDao.java`文件，根据实际情况修改`jdbc.url`、`jdbc.user`、`jdbc.password`的值
+5. 部署项目。将项目部署到Tomcat7或以上版本，启动Tomcat。
+6. 访问系统。前台地址：[http://localhost:8080/360mall](http://localhost:8080/360mall)；用户名：admin，密码：123456，后台登录点击右下角小人，即可切换登录，进入后台管理。
 
-
-
-
-## 相关网站
+## 项目结构
 ├── src
-│   └── main
-│       └── java
-│           └── com
-│               └── lingke
-│                   └── xvp
-│                       └── demo
-│                           ├── controller
-│                           │   ├── request                         // request body
-│                           │   ├── response                        // response body
-│                           │   ├── seller                  
-│                           │   │   ├── OrderController.java        // 订单相关业务处理
-│                           │   │   ├── ProductController.java      // 商品相关业务处理
-│                           │   │   ├── SellerController.java       // 卖家相关业务处理
-│                           │   │   └── StoreController.java        // 店铺相关业务处理
-│                           │   ├── user                    
-│                           │   │   ├── OrderController.java        // 订单相关业务处理
-│                           │   │   ├── ProductController.java      // 商品相关业务处理
-│                           │   │   ├── StoreController.java        // 店铺相关业务处理
-│                           │   │   └── UserController.java         // 普通用户相关业务处理
-│                           │   └── CommonController.java           // 通用类相关业务处理
-│                           ├── db                          
-│                           │   ├── codegen                 
-│                           │   │   └── ActiveRecordGen             // 使用jFinal动态生成代码
-│                           │   └── dao
-│                           ├── utils                               // 工具方法
-│                           ├── XvpApp.java                         // 项目的mainClass，用于启动服务
-│                           ├── XvpAspect.java                      // 事务控制
-│                           ├── XvpConstants.java                   // 常量
-│                           ├── XvpDbConfig.java                    // 获取数据库连接
-│                           ├── XvpInterceptorConfig.java           // 配置需要拦截的请求
-│                           └── XvpRopClient.java                   // rop客户端
-├── src
-│   └── main
-│       └── resources
-│           ├── application.properties                                // 配置文件
-│           └── logback-online.xml                                    // logback配置文件
-├── lib          
-│   └── RopExSdk.jar                                              // SDK
-├── sql                                                             // sql脚本
-├── src                
-│   └── main
-├── web                                                               // 前端页面
-│   ├── mall                                                        // 商城页面
-│   │   ├── README.md           
-│   │   ├── dist                                                    // 项目build目录
-│   │   ├── index.html                                              // 项目入口文件
-│   │   ├── package.json                                            // 项目配置文件
-│   │   ├── src                                                     // 生产目录
-│   │   │   ├── assets                                              // css js 和图片资源
-│   │   │   ├── components                                          // 各种组件
-│   │   │   ├── views                                               // 各种页面
-│   │   │   ├── filters.js                                          // 各种过滤器
-│   │   │   └── main.js                                             // Webpack 预编译入口
-│   │   ├── server.js                                               // webpack-dev-server服务配置
-│   │   └── webpack.constants.js                                    // Webpack 配置文件
-│   └── seller                                                      // 卖家页面
-│       ├── README.md           
-│       ├── dist                                                    // 项目build目录
-│       ├── index.html                                              // 项目入口文件
-│       ├── package.json                                            // 项目配置文件
-│       ├── src                                                     // 生产目录
-│       │   ├── assets                                              // css js 和图片资源
-│       │   ├── components                                          // 各种组件
-│       │   ├── views                                               // 各种页面
-│       │   ├── filters.js                                          // 各种过滤器
-│       │   └── main.js                                             // Webpack 预编译入口
-│       ├── server.js                                               // webpack-dev-server服务配置
-│       └── webpack.constants.js                                    // Webpack 配置文件
-├── LICENSE                                                           // 版权
-├── pom.xml                                                           // pom文件
+
+│   ├── dao
+
+│       ├── BaseDao                         // 数据库连接基础dao
+
+│       ├── CartDao                         // 购物车dao
+
+│       ├── GoodsDao                        // 商品dao
+ 
+│       └── UserDao                         // 用户dao
+
+│   ├── dao.impl    
+
+│       ├── CartDao                         // 购物车处理实现类
+
+│       ├── GoodsDao                        // 商品处理实现类
+
+│       └── UserDao                         // 用户处理实现类
+
+│   ├── entity                              // 工具方法
+
+│       ├── Cart                            // 购物车实体类
+
+│       ├── Goods                           // 商品实体类
+
+│       └── User                            // 用户实体类
+
+│   └──── servlets                          // 处理类，相当于action或controller
+
+│       ├── CartServlet                     // 购物车处理类
+
+│       ├── GoodsServlet                    // 商品处理类
+
+│       └── UserServlets                    // 用户处理类
+
+│
+├── WebContent
+
+│   ├── css
+
+│       └── ...                                   // 样式文件
+           
+│   ├── img
+
+│       └── ...			     // 用到的图片
+
+│   ├── js
+
+│       └── ...			      // js文件
+
+│   ├── sql				
+
+│       └── ...			      // sql文件
+
+│   ├── WEB-INF   
+
+│       └── lib			      // jar包
+
+│   └── ...                                       //页面
+
 └── README.md
+
+## 项目预览
+首页
+![](./_image/211.png)
+导航
+
+![](./_image/212.png)
+前台登录
+
+![](./_image/213.png)
+后台登录
+
+![](./_image/218.png)
+注册
+
+![](./_image/214.png)
+购物车
+![](./_image/216.png)
+![](./_image/215.png)
+搜索
+
+![](./_image/217.png)
+后台首页
+![](./_image/219.png)
+用户管理
+![](./_image/220.png)
+商品管理
+![](./_image/221.png)
