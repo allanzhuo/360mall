@@ -118,7 +118,7 @@ java使用纯servlet实现360商城
 
 ## 项目预览
 首页
-![](./_image/211.png)
+![](https://github.com/allanzhuo/study/blob/master/img/%E9%A6%96%E9%A1%B5.png?raw=true)
 导航
 
 ![](./_image/212.png)
