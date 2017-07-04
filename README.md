@@ -123,6 +123,8 @@ java使用纯servlet实现360商城
 ![](https://github.com/allanzhuo/study/blob/master/img/%E9%A6%96%E9%A1%B5.png?raw=true)
 导航
 ![](https://github.com/allanzhuo/study/blob/master/img/%E5%AF%BC%E8%88%AA.png?raw=true)
+详情页
+![](https://github.com/allanzhuo/study/blob/master/img/%E8%AF%A6%E6%83%85%E9%A1%B5.png?raw=true)
 前台登录
 ![](https://github.com/allanzhuo/study/blob/master/img/%E7%99%BB%E5%BD%951.png?raw=true)
 后台登录
