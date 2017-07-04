@@ -1,0 +1,17 @@
+@CHARSET "UTF-8";
+#footer span{font-size:14px;}
+#span1{float:right;}
+#footer a{color:#666; text-decoration:none;}
+#footer span a:visit{color:#666; text-decoration:none;}
+#footer span a:hover{color:#09F; text-decoration:underline;}
+#footer{width:100%;line-height:40px; height:125px;clear:both;font-size:14px; border-bottom:1px solid #999;width: 1349px; }
+#footer div{text-align:left; border:1px solid #999; width:161px; float:left; padding:0px 0px 0px 84px;}
+#footer div p{ margin:-15px 0px 0px 0px; font-size:16px; color:#999;}
+#footer div span{ color:#333;}
+#foot1{ margin:30px 0px 0px 120px; background:url(../img/foot1.png) 35px no-repeat;}
+#foot2{ background:url(../img/foot2.png) 35px no-repeat;}
+#foot3{ background:url(../img/foot3.png) 35px no-repeat;}
+#foot4{ background:url(../img/foot4.png) 35px no-repeat;}
+.foot{margin:30px 0px 0px 45px;}
+
+#footer2{width:100%;line-height:40px;clear:both;text-align:center;font-size:14px;}

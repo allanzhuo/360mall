@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0px; padding:0px;}
+#top{ width:100%; height:100px; background:url(../img/logo_login.png) 80px 20px no-repeat;}
+#log{border:0px; background-image:url(../img/logbg2.png); width:284px; height:356px; padding:50px 30px 0px 30px; position:relative; top:108px; left:919px;}
+#div1{margin:35px 0px 0px 0px;border:1px solid #ccc; background:url(../img/zh.png) left no-repeat; background-color:#fff;}
+#div2{border:1px solid #ccc; background:url(../img/mm.png) left no-repeat; background-color:#fff;}
+.div{margin:25px 0px 0px 0px;}
+.input{ margin:0px 0px 0px 30px; height:35px; width:250px; border:0px;}
+#input3{width:100%;height:35px; background-color:#093; border:0px; color:#fff; font-weight:bold;}
+#centry{background-image:url(../img/logbg1.png); height:649px;width: 1349px;}
+#userMes,#pswMes{position:absolute; z-index:999;}
+span{font-size:14px;}
+#span1{float:right;}
+ a{color:#666; text-decoration:none;}
+span a:visit{color:#666; text-decoration:none;}
+span a:hover{color:#09F; text-decoration:underline;}
+
+

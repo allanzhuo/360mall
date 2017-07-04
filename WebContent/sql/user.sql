@@ -1,0 +1,14 @@
+INSERT INTO `user` (`userName`, `password`, `cellphone`) VALUES ('11111111111', '11111111111111', '1111111111111');
+INSERT INTO `user` (`userName`, `password`, `cellphone`) VALUES ('a', '123', NULL);
+INSERT INTO `user` (`userName`, `password`, `cellphone`) VALUES ('aaaaaaaaaaaaaa', 'a', NULL);
+INSERT INTO `user` (`userName`, `password`, `cellphone`) VALUES ('admin', '123456', '13023046077');
+INSERT INTO `user` (`userName`, `password`, `cellphone`) VALUES ('admin1', '123456', '13023046066');
+INSERT INTO `user` (`userName`, `password`, `cellphone`) VALUES ('sssss', 'sss', NULL);
+INSERT INTO `user` (`userName`, `password`, `cellphone`) VALUES ('ssssss', 'a', NULL);
+INSERT INTO `user` (`userName`, `password`, `cellphone`) VALUES ('userName', 'password', '13023046077');
+INSERT INTO `user` (`userName`, `password`, `cellphone`) VALUES ('wode ', 'jdsjjasfaf', '13023046077');
+INSERT INTO `user` (`userName`, `password`, `cellphone`) VALUES ('x', 'x', NULL);
+INSERT INTO `user` (`userName`, `password`, `cellphone`) VALUES ('zhang', '123123', NULL);
+INSERT INTO `user` (`userName`, `password`, `cellphone`) VALUES ('zhang1', '123123', NULL);
+INSERT INTO `user` (`userName`, `password`, `cellphone`) VALUES ('孙小龙龙', '123456', '13023046066');
+INSERT INTO `user` (`userName`, `password`, `cellphone`) VALUES ('张卓张卓', '123456', '13023046066');
