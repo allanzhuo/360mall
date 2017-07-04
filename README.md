@@ -69,15 +69,15 @@ java使用纯servlet实现360商城
 
 │　　　　├── dao.impl    
 
-│　　　　　　　├── CartDao                         // 购物车处理实现类
+│　　　　　　　├── CartDao 　　　　　　　　　　　　　　// 购物车处理实现类
 
-│　　　　　　　├── GoodsDao                        // 商品处理实现类
+│　　　　　　　├── GoodsDao　　　　　　　　　　　　　　// 商品处理实现类
 
-│　　　　　　　└── UserDao                         // 用户处理实现类
+│　　　　　　　└── UserDao　　　　　　　　　　　　　　// 用户处理实现类
 
-│　　　　├── entity                              // 工具方法
+│　　　　├── entity　　　　　　　　　　　　　　　　　　// 工具方法
 
-│　　　　　　　├── Cart                            // 购物车实体类
+│　　　　　　　├── Cart　　　　　　　　　　　　　　　　// 购物车实体类
 
 │　　　　　　　├── Goods                           // 商品实体类
 
