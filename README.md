@@ -13,7 +13,7 @@ java使用纯servlet实现360商城
 
 如果本项目对您有帮助的话，**请方便给我个Star**
 
-联系我：http://www.cnblogs.com/allanzhang/p/7116087.html
+联系我：http://www.cnblogs.com/laoyeye/p/7116087.html
 
 ## 简介
 这是我上大学期间写的第一个相对较完善的学习项目了，项目中所有css和js都是自己边摸索、边学习画出来的，自我感觉对于我当时的水平还算可以了。
