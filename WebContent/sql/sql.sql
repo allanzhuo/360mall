@@ -1,5 +1,5 @@
 
--- ”√ªß±Ì
+-- Áî®Êà∑Ë°®
 CREATE TABLE `user` (
   `userName` varchar(50) NOT NULL DEFAULT '',
   `password` varchar(50) NOT NULL,
@@ -7,7 +7,7 @@ CREATE TABLE `user` (
   PRIMARY KEY (`userName`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- …Ã∆∑±Ì
+-- ÂïÜÂìÅË°®
 CREATE TABLE `goods` (
   `id` varchar(10) NOT NULL DEFAULT '',
   `name` varchar(50) DEFAULT NULL,
@@ -20,7 +20,7 @@ CREATE TABLE `goods` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- π∫ŒÔ≥µ±Ì
+-- Ë¥≠Áâ©ËΩ¶
 CREATE TABLE `cart` (
   `id` varchar(10) NOT NULL,
   `gid` varchar(10) NOT NULL,
