@@ -10,5 +10,3 @@ INSERT INTO `user` (`userName`, `password`, `cellphone`) VALUES ('wode ', 'jdsjj
 INSERT INTO `user` (`userName`, `password`, `cellphone`) VALUES ('x', 'x', NULL);
 INSERT INTO `user` (`userName`, `password`, `cellphone`) VALUES ('zhang', '123123', NULL);
 INSERT INTO `user` (`userName`, `password`, `cellphone`) VALUES ('zhang1', '123123', NULL);
-INSERT INTO `user` (`userName`, `password`, `cellphone`) VALUES ('孙小龙龙', '123456', '13023046066');
-INSERT INTO `user` (`userName`, `password`, `cellphone`) VALUES ('张卓张卓', '123456', '13023046066');
